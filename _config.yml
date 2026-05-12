@@ -1,0 +1,15 @@
+title: Enhancing Maritime Safety
+description: Developing an accessible real-time semantic wave imaging analyser for seakeeping
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+show_downloads: false
+github:
+  is_project_page: false
+
+exclude:
+  - reference_material/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
