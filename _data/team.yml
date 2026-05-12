@@ -1,0 +1,28 @@
+- name: Ya Huang
+  role: Principal Investigator
+  profile: "https://researchportal.port.ac.uk/en/persons/ya-huang/"
+  image: /assets/img/team/ya-huang.jpg
+  initials: YH
+- name: Andrea Bucchi
+  role: Co-Investigator
+  profile: "https://researchportal.port.ac.uk/en/persons/andrea-bucchi/"
+  image: /assets/img/team/andrea-bucchi.jpg
+  initials: AB
+- name: Obinna Umeh
+  role: Computer vision output
+  profile: "https://researchportal.port.ac.uk/en/persons/obinna-umeh/"
+  image: /assets/img/team/obinna-umeh.jpg
+  initials: OU
+- name: Xan Morice-Atkinson
+  role: Data output
+  profile: "https://researchportal.port.ac.uk/en/persons/xan-morice-atkinson/"
+  image: /assets/img/team/xan-morice-atkinson.jpg
+  initials: XMA
+- name: Guangwei Zhao
+  role: Experimental output
+  profile: "https://researchportal.port.ac.uk/en/persons/guangwei-zhao/"
+  initials: GZ
+- name: Nimantha Dasanayake
+  role: Project team
+  profile: "https://researchportal.port.ac.uk/en/persons/nimantha-priyamal-dasanayake/"
+  initials: ND

@@ -13,30 +13,19 @@ permalink: /team/
     </div>
 
     <div class="team-grid">
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/ya-huang/">
-        <span class="team-name">Ya Huang</span>
-        <span class="team-role">Principal Investigator</span>
-      </a>
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/andrea-bucchi/">
-        <span class="team-name">Andrea Bucchi</span>
-        <span class="team-role">Co-Investigator</span>
-      </a>
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/obinna-umeh/">
-        <span class="team-name">Obinna Umeh</span>
-        <span class="team-role">Computer vision output</span>
-      </a>
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/xan-morice-atkinson/">
-        <span class="team-name">Xan Morice-Atkinson</span>
-        <span class="team-role">Data output</span>
-      </a>
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/guangwei-zhao/">
-        <span class="team-name">Guangwei Zhao</span>
-        <span class="team-role">Experimental output</span>
-      </a>
-      <a class="team-card" href="https://researchportal.port.ac.uk/en/persons/nimantha-priyamal-dasanayake/">
-        <span class="team-name">Nimantha Dasanayake</span>
-        <span class="team-role">Project team</span>
-      </a>
+      {% for member in site.data.team %}
+        <a class="team-card" href="{{ member.profile }}">
+          {% if member.image %}
+            <img class="team-photo" src="{{ member.image | relative_url }}" alt="{{ member.name }}" loading="lazy">
+          {% else %}
+            <span class="team-photo team-photo-fallback" aria-hidden="true">{{ member.initials }}</span>
+          {% endif %}
+          <span class="team-text">
+            <span class="team-name">{{ member.name }}</span>
+            <span class="team-role">{{ member.role }}</span>
+          </span>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>
