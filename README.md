@@ -5,13 +5,20 @@ GitHub Pages microsite for EPSRC project EP/X035778/1.
 The site is intentionally high level while project outputs are in preparation. Unpublished source notes are excluded from publication by `.gitignore` and Jekyll configuration.
 
 ## Local Preview
-
-This is a static Jekyll-compatible site. For a quick local preview, serve the repository root with any static file server:
+This site uses Jekyll layouts and includes so shared navigation and page chrome are defined once.
+Use a current Ruby installation rather than macOS system Ruby.
 
 ```bash
-python3 -m http.server 4000
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --port 4000
 ```
 
 Then open `http://localhost:4000`.
 
-GitHub Pages will also read `_config.yml`, including the Cayman remote theme setting.
+If there is no GitHub `origin` remote configured locally, GitHub Pages metadata may ask for a repository name. In that case, prefix the serve command:
+
+```bash
+PAGES_REPO_NWO=<owner>/<repo> bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+GitHub Pages reads `_config.yml`, including the Cayman remote theme setting.

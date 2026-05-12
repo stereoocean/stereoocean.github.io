@@ -1,0 +1,13 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <a class="site-mark" href="{{ '/' | relative_url }}" aria-label="Enhancing Maritime Safety home">
+    <span class="mark-wave" aria-hidden="true"></span>
+    <span>Enhancing Maritime Safety</span>
+  </a>
+  <div class="nav-links">
+    <a href="{{ '/project/' | relative_url }}" {% if page.nav_key == "project" %}aria-current="page"{% endif %}>Project</a>
+    <a href="{{ '/outputs/' | relative_url }}" {% if page.nav_key == "outputs" %}aria-current="page"{% endif %}>Outputs</a>
+    <a href="{{ '/pipeline/' | relative_url }}" {% if page.nav_key == "pipeline" %}aria-current="page"{% endif %}>Pipeline</a>
+    <a href="{{ '/team/' | relative_url }}" {% if page.nav_key == "team" %}aria-current="page"{% endif %}>Team</a>
+    <a href="{{ '/partners/' | relative_url }}" {% if page.nav_key == "partners" %}aria-current="page"{% endif %}>Partners</a>
+  </div>
+</nav>
