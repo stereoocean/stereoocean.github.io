@@ -26,7 +26,24 @@
     </header>
 
     <main id="main">
-      {{ content }}
+      {% assign home_sections = content | split: '<h2 id="project-outputs">Project outputs</h2>' %}
+
+      <section class="section section-context" aria-labelledby="real-time-interpretation-of-approaching-waves">
+        <div class="section-inner home-context-copy">
+          {{ home_sections[0] }}
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="project-outputs">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2 id="project-outputs">Project outputs</h2>
+            {{ home_sections[1] }}
+          </div>
+
+          {% include output-grid.html %}
+        </div>
+      </section>
     </main>
 
     {% include footer.html %}
