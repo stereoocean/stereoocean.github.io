@@ -8,7 +8,21 @@ show_downloads: false
 github:
   is_project_page: false
 
+collections:
+  outputs:
+    output: true
+    permalink: /outputs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "outputs"
+    values:
+      layout: "output"
+
 exclude:
+  - _site/
+  - .jekyll-cache/
   - reference_material/
   - Gemfile
   - Gemfile.lock

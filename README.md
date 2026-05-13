@@ -4,6 +4,11 @@ GitHub Pages microsite for EPSRC project EP/X035778/1.
 
 The site is intentionally high level while project outputs are in preparation. Unpublished source notes are excluded from publication by `.gitignore` and Jekyll configuration.
 
+## Project Outputs
+Project output pages are markdown files in `_outputs/`. Add a new output by creating a new `.md` file with front matter for `title`, `output_title`, `lead`, `status`, `image`, `order`, and `description`.
+
+The landing page reads from the `outputs` collection, so output cards and output detail pages stay in sync.
+
 ## Local Preview
 This site uses Jekyll layouts and includes so shared navigation and page chrome are defined once.
 Use a current Ruby installation rather than macOS system Ruby.

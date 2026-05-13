@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Computer vision output placeholder">
+  <rect width="1200" height="675" fill="#f4f8fb"/>
+  <path d="M0 455c98-50 196-50 294 0s196 50 294 0 196-50 294 0 212 50 318 0v220H0z" fill="#dfeff2"/>
+  <path d="M0 386c98-50 196-50 294 0s196 50 294 0 196-50 294 0 212 50 318 0" fill="none" stroke="#20c7df" stroke-width="10"/>
+  <rect x="242" y="142" width="716" height="350" rx="8" fill="none" stroke="#082a42" stroke-width="10"/>
+  <rect x="315" y="218" width="178" height="116" fill="none" stroke="#e36f2c" stroke-width="8"/>
+  <rect x="635" y="250" width="246" height="142" fill="none" stroke="#006f8d" stroke-width="8"/>
+  <g fill="#082a42">
+    <circle cx="404" cy="276" r="8"/>
+    <circle cx="758" cy="321" r="8"/>
+    <circle cx="600" cy="492" r="9"/>
+  </g>
+  <path d="M242 492h716" stroke="#082a42" stroke-width="10"/>
+</svg>

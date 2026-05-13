@@ -26,42 +26,26 @@ hero_subtitle: Developing an accessible real-time semantic wave imaging analyser
   </div>
 </section>
 
-<section class="section" aria-labelledby="site-sections-title">
+<section class="section" aria-labelledby="project-outputs">
   <div class="section-inner">
     <div class="section-heading">
-      <h2 id="site-sections-title">Project areas</h2>
-      <p>Use the project pages below for the current public overview. Additional material can be added to each page as papers, data, and related outputs become available.</p>
+      <h2 id="project-outputs">Project outputs</h2>
+      <p>Each output is being prepared as a separate manuscript. The pages below will expand as papers, data, and related materials become public.</p>
     </div>
 
-    <div class="link-grid">
-      <a class="link-card" href="{{ '/project/' | relative_url }}">
-        <span>Project</span>
-        <p>Research context, public grant information, and overall aims.</p>
-      </a>
-      <a class="link-card" href="{{ '/outputs/' | relative_url }}">
-        <span>Outputs</span>
-        <p>High-level publication roadmap for data, computer vision, and experimental outputs.</p>
-      </a>
-      <a class="link-card" href="{{ '/pipeline/' | relative_url }}">
-        <span>Pipeline</span>
-        <p>A conceptual map from wave imaging to future seakeeping insight.</p>
-      </a>
-      <a class="link-card" href="{{ '/team/' | relative_url }}">
-        <span>Team</span>
-        <p>Project team members and institutional profile links.</p>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="section section-availability" aria-labelledby="home-availability-title">
-  <div class="section-inner availability-layout">
-    <div>
-      <h2 id="home-availability-title">Project outputs will be linked here as they become publicly available.</h2>
-      <p>
-        Details, datasets, code, model artefacts, and papers will be added after public release.
-        Until then, output descriptions remain intentionally high level.
-      </p>
+    <div class="output-grid">
+      {% assign outputs = site.outputs | sort: "order" %}
+      {% for output in outputs %}
+        <a class="output-card output-link-card" href="{{ output.url | relative_url }}">
+          <img class="output-card-image" src="{{ output.image | relative_url }}" alt="" loading="lazy">
+          <span class="output-card-copy">
+            <span class="output-card-title">{{ output.output_title | default: output.title }}</span>
+            <span class="status">{{ output.status }}</span>
+            <span class="output-summary">{{ output.description }}</span>
+            <span class="lead">Lead: {{ output.lead }}</span>
+          </span>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </section>

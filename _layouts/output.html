@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+<section class="section" aria-labelledby="output-title">
+  <div class="section-inner output-detail-layout">
+    <div>
+      <img class="output-detail-image" src="{{ page.image | relative_url }}" alt="" loading="lazy">
+    </div>
+
+    <div class="output-detail-copy">
+      <p class="status">{{ page.status }}</p>
+      <h2 id="output-title">{{ page.output_title | default: page.title }}</h2>
+      <p>{{ page.description }}</p>
+
+      <dl class="output-meta">
+        <div>
+          <dt>Lead</dt>
+          <dd>{{ page.lead }}</dd>
+        </div>
+        <div>
+          <dt>Status</dt>
+          <dd>{{ page.status }}</dd>
+        </div>
+      </dl>
+
+      <div class="output-body">
+        {{ content }}
+      </div>
+
+      <a class="back-link" href="{{ '/#project-outputs' | relative_url }}">Back to project outputs</a>
+    </div>
+  </div>
+</section>
