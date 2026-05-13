@@ -4,10 +4,6 @@ nav_key: partners
 title: Partners
 description: Funding and publicly listed project organisations.
 permalink: /partners/
-partners:
-  - EPSRC
-  - University of Portsmouth
-  - RNLI
 ---
 
 ## EPSRC-funded research led by the University of Portsmouth

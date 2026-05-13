@@ -11,6 +11,13 @@ The landing page reads from the `outputs` collection, so output cards and output
 
 Top-level content pages such as `index.md`, `team.md`, and `partners.md` are also markdown. Shared card and list markup lives in `_includes/` so page copy stays editable as markdown.
 
+## Repository Structure
+- `_outputs/` contains markdown-backed project output pages.
+- `_data/` contains structured reusable data such as team members and partners.
+- `_layouts/` contains page shells and section structure.
+- `_includes/` contains reusable renderers such as output, team, and partner lists.
+- `assets/` contains CSS and images, grouped by purpose.
+
 ## Local Preview
 This site uses Jekyll layouts and includes so shared navigation and page chrome are defined once.
 Use a current Ruby installation rather than macOS system Ruby.
