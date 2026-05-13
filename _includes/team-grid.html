@@ -1,0 +1,15 @@
+<div class="team-grid">
+  {% for member in site.data.team %}
+    <a class="team-card" href="{{ member.profile }}">
+      {% if member.image %}
+        <img class="team-photo" src="{{ member.image | relative_url }}" alt="{{ member.name }}" loading="lazy">
+      {% else %}
+        <span class="team-photo team-photo-fallback" aria-hidden="true">{{ member.initials }}</span>
+      {% endif %}
+      <span class="team-text">
+        <span class="team-name">{{ member.name }}</span>
+        <span class="team-role">{{ member.role }}</span>
+      </span>
+    </a>
+  {% endfor %}
+</div>
