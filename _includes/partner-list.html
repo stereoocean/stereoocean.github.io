@@ -1,5 +1,12 @@
 <div class="partner-list" aria-label="Publicly listed project organisations">
   {% for partner in site.data.partners %}
-    <span>{{ partner }}</span>
+    <a class="partner-card" href="{{ partner.url }}">
+      {% if partner.logo %}
+        <span class="partner-logo-frame">
+          <img class="partner-logo" src="{{ partner.logo | relative_url }}" alt="{{ partner.logo_alt }}" loading="lazy">
+        </span>
+      {% endif %}
+      <span class="partner-name">{{ partner.short_name }}</span>
+    </a>
   {% endfor %}
 </div>

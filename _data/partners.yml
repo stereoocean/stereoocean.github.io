@@ -1,3 +1,11 @@
-- EPSRC
-- University of Portsmouth
-- RNLI
+- name: Engineering and Physical Sciences Research Council
+  short_name: EPSRC
+  url: https://www.ukri.org/councils/epsrc/
+- name: University of Portsmouth
+  short_name: University of Portsmouth
+  url: https://www.port.ac.uk/
+  logo: /assets/img/partners/university-of-portsmouth.svg
+  logo_alt: University of Portsmouth
+- name: Royal National Lifeboat Institution
+  short_name: RNLI
+  url: https://rnli.org/
