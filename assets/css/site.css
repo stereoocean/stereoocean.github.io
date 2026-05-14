@@ -71,7 +71,7 @@ a {
   background-image:
     linear-gradient(90deg, rgba(4, 22, 38, 0.98) 0%, rgba(4, 22, 38, 0.88) 32%, rgba(4, 22, 38, 0.44) 62%, rgba(4, 22, 38, 0.2) 100%),
     linear-gradient(180deg, rgba(4, 22, 38, 0.1) 0%, rgba(4, 22, 38, 0.28) 76%, rgba(4, 22, 38, 0.8) 100%),
-    url("../img/hero/hero-wave-imaging.jpg");
+    url("../img/hero/hero-wave-imaging.png");
   background-position: center;
   background-size: cover;
 }
@@ -144,7 +144,7 @@ a {
   color: #ffffff;
   background:
     linear-gradient(90deg, rgba(4, 22, 38, 0.98), rgba(8, 42, 66, 0.94)),
-    url("../img/hero/hero-wave-imaging.jpg");
+    url("../img/hero/hero-wave-imaging.png");
   background-position: center 40%;
   background-size: cover;
 }
