@@ -55,7 +55,7 @@ a {
 
 .site-hero {
   position: relative;
-  min-height: 620px;
+  min-height: 520px;
   overflow: hidden;
   color: #ffffff;
   background: var(--deep);
@@ -152,7 +152,7 @@ a {
 .page-title {
   width: min(var(--max), calc(100% - 3rem));
   margin: 0 auto;
-  padding: 4.3rem 0 4.7rem;
+  padding: 3.2rem 0 3.5rem;
 }
 
 .page-title h1 {
@@ -173,7 +173,7 @@ a {
   z-index: 1;
   width: min(var(--max), calc(100% - 3rem));
   margin: 0 auto;
-  padding: 6.6rem 0 7.5rem;
+  padding: 4.7rem 0 5.6rem;
 }
 
 .grant-line {
@@ -646,7 +646,7 @@ h3 {
 
 @media (max-width: 900px) {
   .site-hero {
-    min-height: 650px;
+    min-height: 560px;
   }
 
   .site-nav {
@@ -684,7 +684,7 @@ h3 {
 
 @media (max-width: 640px) {
   .site-hero {
-    min-height: 720px;
+    min-height: 620px;
   }
 
   .hero-media {
@@ -712,7 +712,7 @@ h3 {
   }
 
   .hero-content {
-    padding-top: 5.2rem;
+    padding: 3.8rem 0 5rem;
   }
 
   h1 {
@@ -754,7 +754,7 @@ h3 {
   }
 
   .page-title {
-    padding: 3rem 0 3.4rem;
+    padding: 2.3rem 0 2.7rem;
   }
 
   .page-title h1 {
