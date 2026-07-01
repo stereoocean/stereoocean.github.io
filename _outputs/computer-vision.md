@@ -3,7 +3,7 @@ title: Large scale 3D reconstruction of sea surface.
 output_title: Computer Vision
 lead: Obinna Umeh
 status: Manuscript in preparation
-image: /assets/img/outputs/computer-vision.svg
+image: /assets/img/outputs/Left_Right_disparity_vector.svg
 order: 2
 description: Multi-scale 3D reconstruction of sea surface.
 ---
