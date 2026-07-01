@@ -1,11 +1,11 @@
 ---
-title: Computer Vision Output
+title: Large scale 3D reconstruction of the sea surface.
 output_title: Computer Vision
 lead: Obinna Umeh
 status: Manuscript in preparation
 image: /assets/img/outputs/computer-vision.svg
 order: 2
-description: Computer vision investigations applied to maritime wave imagery and reconstructed wave-scene data.
+description: Multi-scale 3D reconstruction of synthetic sea surface..
 ---
 
 This output covers computer vision investigations applied to maritime wave imagery
