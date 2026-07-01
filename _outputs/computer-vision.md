@@ -1,6 +1,5 @@
 ---
-title: Computer Vision Output
-output_title: Computer Vision
+title: Computer Vision
 lead: Obinna Umeh
 status: Manuscript in preparation
 image: /assets/img/outputs/computer-vision.svg

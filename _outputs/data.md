@@ -1,6 +1,5 @@
 ---
-title: Data Output
-output_title: Data
+title: Data
 lead: Xan Morice-Atkinson
 status: Manuscript in preparation
 image: /assets/img/outputs/data.svg

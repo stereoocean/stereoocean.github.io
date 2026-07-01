@@ -4,7 +4,7 @@
     <a class="output-card output-link-card" href="{{ output.url | relative_url }}">
       <img class="output-card-image" src="{{ output.image | relative_url }}" alt="" loading="lazy">
       <span class="output-card-copy">
-        <span class="output-card-title">{{ output.output_title | default: output.title }}</span>
+        <span class="output-card-title">{{ output.title }}</span>
         <span class="status">{{ output.status }}</span>
         <span class="output-summary">{{ output.description }}</span>
         <span class="lead">Lead: {{ output.lead }}</span>

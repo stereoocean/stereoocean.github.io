@@ -1,6 +1,5 @@
 ---
-title: Seakeeping Control Strategies for Underactuated Unmanned Vessels
-output_title: Simulations and Laboratory Experiments
+title: Simulations and Laboratory Experiments
 lead: Nimantha Dasanayake
 status: Manuscript in preparation
 image: /assets/img/outputs/experimental.svg

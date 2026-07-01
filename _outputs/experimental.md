@@ -1,6 +1,5 @@
 ---
-title: Experimental Output
-output_title: Experimental
+title: Experimental
 lead: Guangwei Zhao
 status: Manuscript in preparation
 image: /assets/img/outputs/experimental.svg

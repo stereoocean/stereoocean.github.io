@@ -79,7 +79,6 @@ Use this front matter pattern:
 ```yaml
 ---
 title: New Output
-output_title: Short card title
 lead: Output lead or owner
 status: Manuscript in preparation
 image: /assets/img/outputs/new-output.svg
@@ -90,7 +89,7 @@ description: Short public summary for metadata and cards.
 
 Then write the public-facing page body below the front matter. The homepage output grid is generated from these files, ordered by `order`.
 
-Required output fields are `title`, `output_title`, `lead`, `status`, `image`, `order`, and `description`. Add the referenced image to `assets/img/outputs/`.
+Required output fields are `title`, `lead`, `status`, `image`, `order`, and `description`. Add the referenced image to `assets/img/outputs/`.
 
 ### Team Members
 
