@@ -1,11 +1,11 @@
 ---
-title: Experimental Output
-output_title: Experimental
-lead: Guangwei Zhao
+title: Seakeeping Control Strategies for Underactuated Unmanned Vessels
+output_title: Simulations and Laboratory Experiments
+lead: Nimantha Dasanayake
 status: Manuscript in preparation
 image: /assets/img/outputs/experimental.svg
 order: 4
-description: Experimental stereo-imaging and reconstruction studies supporting validation of the wider research pipeline.
+description: 
 ---
 
 This output focuses on experimental stereo-imaging and reconstruction work that
