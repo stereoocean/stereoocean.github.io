@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: default
 ---
 
-<section class="section" aria-labelledby="output-title">
+<header class="page-masthead">
+  {% include nav.html %}
+</header>
+
+<main id="main">
+  <section class="section" aria-labelledby="output-title">
   <div class="section-inner output-detail-layout">
     <div>
       <img class="output-detail-image" src="{{ page.image | relative_url }}" alt="" loading="lazy">
@@ -34,3 +39,4 @@ layout: page
     </div>
   </div>
 </section>
+</main>
