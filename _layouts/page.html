@@ -2,16 +2,7 @@
 layout: default
 ---
 
-<header class="page-masthead">
-  {% include nav.html %}
-  <div class="page-title">
-    <p class="grant-line">University of Portsmouth</p>
-    <h2>{{ page.title }}</h2>
-    {% if page.description %}
-      <p>{{ page.description }}</p>
-    {% endif %}
-  </div>
-</header>
+{% include site-header.html %}
 
 <main id="main">
   {{ content }}

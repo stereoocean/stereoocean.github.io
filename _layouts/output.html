@@ -2,16 +2,12 @@
 layout: page
 ---
 
-<section class="section" aria-labelledby="output-title">
+<section class="section" aria-label="{{ page.output_title | default: page.title }} details">
   <div class="section-inner output-detail-layout">
-    <div>
-      <img class="output-detail-image" src="{{ page.image | relative_url }}" alt="" loading="lazy">
-    </div>
-
-    <div class="output-detail-copy">
-      <p class="status">{{ page.status }}</p>
-      <h2 id="output-title">{{ page.output_title | default: page.title }}</h2>
-      <p>{{ page.description }}</p>
+    <div class="output-detail-summary">
+      <div class="output-detail-media">
+        <img class="output-detail-image" src="{{ page.image | relative_url }}" alt="" loading="lazy">
+      </div>
 
       <dl class="output-meta">
         <div>
@@ -23,7 +19,9 @@ layout: page
           <dd>{{ page.status }}</dd>
         </div>
       </dl>
+    </div>
 
+    <div class="output-detail-copy">
       <div class="output-body">
         {{ content }}
       </div>

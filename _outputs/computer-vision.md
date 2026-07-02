@@ -4,7 +4,7 @@ output_title: Computer Vision
 lead: Obinna Umeh
 status: Manuscript in preparation
 image: /assets/img/outputs/computer-vision.svg
-order: 2
+order: 3
 description: Multi-scale 3D reconstruction of sea surface.
 ---
 

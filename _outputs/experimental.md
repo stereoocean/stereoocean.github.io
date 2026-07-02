@@ -4,7 +4,7 @@ output_title: Experimental
 lead: Guangwei Zhao
 status: Manuscript in preparation
 image: /assets/img/outputs/experimental.svg
-order: 3
+order: 4
 description: Experimental stereo-imaging and reconstruction studies supporting validation of the wider research pipeline.
 ---
 

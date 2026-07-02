@@ -1,0 +1,29 @@
+{% assign header_title = include.title | default: page.header_title | default: page.output_title | default: page.hero_title | default: page.title %}
+{% assign header_subtitle = include.subtitle | default: page.header_subtitle | default: page.hero_subtitle | default: page.description %}
+{% assign header_meta = include.meta | default: page.project_meta %}
+{% assign header_url = include.project_url | default: page.project_url %}
+
+<header class="site-hero" id="top">
+  {% include nav.html %}
+
+  {% if header_title or header_subtitle or header_meta or header_url %}
+    <div class="hero-content">
+      {% if header_title %}
+        <h1>{{ header_title }}</h1>
+      {% endif %}
+      {% if header_subtitle %}
+        <p class="hero-subtitle">{{ header_subtitle }}</p>
+      {% endif %}
+      {% if header_meta or header_url %}
+        <p class="project-line">
+          {% if header_meta %}
+            <span>{{ header_meta }}</span>
+          {% endif %}
+          {% if header_url %}
+            <a href="{{ header_url }}">Project record</a>
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+  {% endif %}
+</header>

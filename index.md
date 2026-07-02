@@ -1,12 +1,12 @@
 ---
 layout: home
 nav_key: home
-grant_line: EPSRC project EP/X035778/1 | University of Portsmouth
-hero_title: Enhancing Maritime Safety - Developing an accessible real-time semantic wave imaging analyser for seakeeping
+hero_title: Real-time semantic wave imaging
+hero_subtitle: For safer seakeeping decisions.
+project_meta: EPSRC EP/X035778/1 · University of Portsmouth
+project_url: https://gtr.ukri.org/projects?ref=EP%2FX035778%2F1
 ---
 
-## Real-time interpretation of approaching waves
-This EPSRC project investigates how stereo imaging, 4D wave reconstruction, computer vision, and experimental validation can contribute to safer seakeeping decisions for maritime operations. The site will expand as project outputs become public. For now, it provides high-level project context and a publication roadmap while manuscripts are in preparation.
+This EPSRC project brings together stereo imaging, 4D wave reconstruction, computer vision, and experimental validation to support maritime operators as they interpret approaching waves. The site will expand as papers, data, and supporting materials become public.
 
 ## Project outputs
-Each output is being prepared as a separate manuscript. The pages below will expand as papers, data, and related materials become public.

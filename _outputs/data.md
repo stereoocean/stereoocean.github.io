@@ -3,7 +3,7 @@ title: Data Output
 output_title: Data
 lead: Xan Morice-Atkinson
 status: Manuscript in preparation
-image: /assets/img/outputs/data.svg
+image: /assets/img/hero/hero-wave-imaging.png
 order: 1
 description: Synthetic and processed wave-imaging data workflows supporting rendering, preparation, and analysis.
 ---

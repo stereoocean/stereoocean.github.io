@@ -4,6 +4,7 @@
     <span>Enhancing Maritime Safety</span>
   </a>
   <div class="nav-links">
+    <a href="{{ '/' | relative_url }}" {% if page.nav_key == "home" %}aria-current="page"{% endif %}>Home</a>
     <a href="{{ '/team/' | relative_url }}" {% if page.nav_key == "team" %}aria-current="page"{% endif %}>Team</a>
     <a href="{{ '/partners/' | relative_url }}" {% if page.nav_key == "partners" %}aria-current="page"{% endif %}>Partners</a>
   </div>
