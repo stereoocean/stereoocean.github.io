@@ -1,16 +1,17 @@
 ---
-title: Shallow water equation beach water cone drop
-output_title: In the Shallow Water Equation (SWE), the primitive (non-conservative) form expresses the system in terms of the physical variables of water height and fluid velocity, emphasising local acceleration through advective (material derivative) terms, and is therefore intuitive for analysing fluid parcel dynamics and for methods such as semi-Lagrangian schemes.
+title: Shallow Water Equation (SWE) modelling
+output_title: SWE beach water cone drop
 lead: Andrea Bucchi, Ya Huang
 image: /assets/img/outputs/swe1.png
 order: 1
 description: 
 ---
+
+### SWE beach slope water cone drop
 <video controls width="100%">
   <source src="/assets/img/outputs/muller7_swe_beach_v1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 In the Shallow Water Equation (SWE), the primitive (non-conservative) form expresses the system in terms of the physical variables of water height and fluid velocity, emphasising local acceleration through advective (material
 derivative) terms, and is therefore intuitive for analysing fluid parcel dynamics and for methods such as
 semi-Lagrangian schemes. However, because it is not written explicitly as a conservation law, it only
@@ -21,4 +22,7 @@ The conservative form is less directly tied to velocity evolution and less natur
 trajectory-based discretisations, whereas the primitive form—while more suitable for semi-Lagrangian
 approaches—sacrifices strict conservation and can fail to capture correct jump conditions unless special
 treatments are introduced.
+
+### SWE beach obstruction water cone drop
+The test
 
