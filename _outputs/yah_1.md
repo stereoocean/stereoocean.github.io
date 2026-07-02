@@ -1,5 +1,6 @@
 ---
 title: Shallow water equation beach water cone drop
+output_title: In the Shallow Water Equation (SWE), the primitive (non-conservative) form expresses the system in terms of the physical variables of water height and fluid velocity, emphasising local acceleration through advective (material derivative) terms, and is therefore intuitive for analysing fluid parcel dynamics and for methods such as semi-Lagrangian schemes.
 lead: Andrea Bucchi, Ya Huang
 image: /assets/img/outputs/swe1.png
 order: 1
