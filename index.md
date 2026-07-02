@@ -1,10 +1,10 @@
 ---
 layout: home
 nav_key: home
-title: Enhancing Maritime Safety
+title: Enhancing Maritime Safety 1
 description: Developing accessible real-time semantic wave imaging methods to support safer seakeeping decisions.
 grant_line: EPSRC project EP/X035778/1 | University of Portsmouth
-hero_title: Enhancing Maritime Safety
+hero_title: Enhancing Maritime Safety hero
 hero_subtitle: Developing an accessible real-time semantic wave imaging analyser for seakeeping
 ---
 
