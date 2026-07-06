@@ -2,11 +2,13 @@
 {% assign header_subtitle = include.subtitle | default: page.header_subtitle | default: page.hero_subtitle | default: page.description %}
 {% assign header_meta = include.meta | default: page.project_meta %}
 {% assign header_url = include.project_url | default: page.project_url %}
+{% assign header_project_ref = include.project_ref | default: page.project_ref %}
+{% assign header_project_org = include.project_org | default: page.project_org %}
 
 <header class="site-hero" id="top">
   {% include nav.html %}
 
-  {% if header_title or header_subtitle or header_meta or header_url %}
+  {% if header_title or header_subtitle or header_meta or header_url or header_project_ref or header_project_org %}
     <div class="hero-content">
       {% if header_title %}
         <h1>{{ header_title }}</h1>
@@ -14,13 +16,26 @@
       {% if header_subtitle %}
         <p class="hero-subtitle">{{ header_subtitle }}</p>
       {% endif %}
-      {% if header_meta or header_url %}
+      {% if header_meta or header_url or header_project_ref or header_project_org %}
         <p class="project-line">
-          {% if header_meta %}
-            <span>{{ header_meta }}</span>
-          {% endif %}
-          {% if header_url %}
-            <a href="{{ header_url }}">Project record</a>
+          {% if header_project_ref %}
+            <span>
+              {% if header_url %}
+                <a href="{{ header_url }}">{{ header_project_ref }}</a>
+              {% else %}
+                {{ header_project_ref }}
+              {% endif %}
+              {% if header_project_org %}
+                · {{ header_project_org }}
+              {% endif %}
+            </span>
+          {% else %}
+            {% if header_meta %}
+              <span>{{ header_meta }}</span>
+            {% endif %}
+            {% if header_url %}
+              <a href="{{ header_url }}">Project record</a>
+            {% endif %}
           {% endif %}
         </p>
       {% endif %}

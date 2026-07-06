@@ -4,6 +4,7 @@ output_title: SWE Modelling
 lead: Andrea Bucchi, Ya Huang
 status: Manuscript in preparation
 image: /assets/img/outputs/swe1.png
+image_fit: contain
 order: 2
 description: Shallow Water Equation modelling for beach-slope and obstruction wave scenarios.
 ---
