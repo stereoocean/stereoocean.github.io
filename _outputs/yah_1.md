@@ -11,7 +11,7 @@ description: Shallow Water Equation modelling for beach-slope and obstruction wa
 
 ### SWE beach slope water cone drop
 <video controls width="100%">
-  <source src="/assets/img/outputs/muller7_swe_beach_v1.mp4" type="video/mp4">
+  <source src="/assets/img/outputs/compressed.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
