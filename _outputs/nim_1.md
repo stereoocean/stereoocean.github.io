@@ -14,7 +14,7 @@ USVs are simulated under realistic wave-disturance based on linear surface wave 
 - 6DoF vessel dynamics
 - Wave-disturbance inputs
 - Public release route for the simulation paper and supporting materials
-- 
+
 ### 6DoF Vessel Simulation with Nonlinear Incident Wave-force as Disturbance and Dynamic Submerged Volume Calculation for Restoration Forces
 <video controls width="100%">
   <source src="/assets/img/outputs/FK_5_low_quality.mp4" type="video/mp4">
