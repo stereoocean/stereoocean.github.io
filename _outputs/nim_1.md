@@ -21,9 +21,3 @@ USVs are simulated under realistic wave-disturance based on linear surface wave 
   Your browser does not support the video tag.
 </video>
 
-### Side View Wave Surface Detection 
-<video controls width="100%">
-  <source src="/assets/img/outputs/Side_view_wave_detection.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
