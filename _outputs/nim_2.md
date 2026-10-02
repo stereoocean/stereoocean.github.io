@@ -3,7 +3,7 @@ title: Side View Wave Surface Detection
 output_title: Side View Wave Surface Detection
 lead: Nimantha Dasanayake and Guangwei Zhao
 status: Manuscript in preparation
-image: assets/img/outputs/pressure_on_hull_cropped.jpeg
+image: assets/img/outputs/Side_Wave.jpeg
 order: 5
 description: Detection of water wave surface from a side view footage of a wave tank.
 ---
