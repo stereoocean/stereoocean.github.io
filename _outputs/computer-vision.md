@@ -5,7 +5,7 @@ lead: Obinna Umeh
 status: Manuscript in preparation
 image: /assets/img/outputs/checkpoint_vs_traditional_comparison.png
 order: 3
-description: Multi-scale 3D reconstruction of sea surface.
+description: Multi-scale 4D reconstruction of sea surface using deep neural network.
 ---
 
 This output covers computer vision investigations applied to maritime wave imagery
